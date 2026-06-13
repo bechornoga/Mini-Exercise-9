@@ -1,0 +1,20 @@
+{
+    "name": "mini-exercise-9",
+    "version": "1.0.0",
+    "description": "Article management server",
+    "main": "app.js",
+    "scripts": {
+        "start": "NODE_ENV=local node app.js",
+        "dev": "NODE_ENV=local nodemon app.js"
+    },
+    "dependencies": {
+        "body-parser": "^1.20.2",
+        "cors": "^2.8.5",
+        "custom-env": "^2.0.4",
+        "express": "^4.19.2",
+        "mongoose": "^8.4.1"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.3"
+    }
+}
